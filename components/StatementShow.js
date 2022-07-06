@@ -24,46 +24,8 @@ const StatementShow = (props) => {
       </div>
       <hr />
       <div class="bg-white mb-2">
-        <ul class="flex justify-center items-center my-4">
-          <li
-            class={`cursor-pointer py-2 px-4 border-b-8 ${
-              activeTab == "THREAD"
-                ? "text-green-500 border-green-500"
-                : "text-gray-500"
-            }`}
-            onClick={() => {
-              setActiveTab("THREAD");
-            }}
-          >
-            Thread
-          </li>
-          <li
-            class={`cursor-pointer py-2 px-4 border-b-8 ${
-              activeTab == "VOTING"
-                ? "text-green-500 border-green-500"
-                : "text-gray-500"
-            }`}
-            onClick={() => {
-              setActiveTab("VOTING");
-            }}
-          >
-            Voting
-          </li>
-          <li
-            class={`cursor-pointer py-2 px-4 border-b-8 ${
-              activeTab == "RELATIONSHIPS"
-                ? "text-green-500 border-green-500"
-                : "text-gray-500"
-            }`}
-            onClick={() => {
-              setActiveTab("RELATIONSHIPS");
-            }}
-          >
-            Relationships
-          </li>
-        </ul>
         <div class="bg-white p-16 text-center border mx-4">
-          <div>Active tab: {activeTab}</div>
+          <div>Comment section here</div>
         </div>
       </div>
     </div>
