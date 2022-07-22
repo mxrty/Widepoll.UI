@@ -25,10 +25,18 @@ const Home = (props) => {
   };
 
   return (
-    <div class="bg-white max-w-2xl shadow overflow-hidden sm:rounded-lg">
-      <div class="border-t border-gray-200">
-        <dl>{renderTruths()}</dl>
+    <div>
+      <div class="bg-white max-w-2xl shadow overflow-hidden sm:rounded-lg">
+        <div class="border-t border-gray-200">
+          <dl>{renderTruths()}</dl>
+        </div>
       </div>
+      <button
+        type="submit"
+        class="px-4  bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+      >
+        Submit
+      </button>
     </div>
   );
 };
